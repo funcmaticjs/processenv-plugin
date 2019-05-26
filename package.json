@@ -1,0 +1,22 @@
+{
+  "name": "@funcmaticjs/processenv-plugin",
+  "version": "0.0.1",
+  "description": "Funcmatic middleware that automatically bring all process.env values in ctx.env",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Daniel Jhin Yoo <danieljyoo@gmail.com> (https://github.com/danieljyoo)",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/funcmaticjs/processenv-plugin.git"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jest": "^24.8.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
